@@ -1,0 +1,11 @@
+
+# create a folder for OCR tools
+mkdir -p ~/apps/ocr
+cd ~/apps/ocr
+
+#python3 -m venv .venv
+
+sudo apt update
+sudo apt install tesseract-ocr tesseract-ocr-ita imagemagick unpaper
+
+tesseract --version
