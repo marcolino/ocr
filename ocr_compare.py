@@ -12,7 +12,7 @@ nltk.download('punkt')
 
 # -------- CONFIGURAZIONE --------
 REFERENCE_FOLDER = "books/txt_reference" # cartella con testi corretti di riferimento
-OCR_FOLDERS = ["books/txt_tesseract_1_0_0", "books/txt_tesseract_5_3_0", "books/txt_easyocr_1_7_2"] # cartelle OCR
+OCR_FOLDERS = ["books/txt_tesseract_1_0_0", "books/txt_tesseract_5_3_0", "books/txt_easyocr_1_7_2", "books/txt_tesseract_5_3_0_chatgpt"] # cartelle OCR
 OUTPUT_CSV = "ocr_comparison_results.csv" # file di output
 
 # -------- FUNZIONI UTILI --------

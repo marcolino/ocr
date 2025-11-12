@@ -14,4 +14,4 @@ fi
 # Read entire file as a stream (-z)
 # Replace hyphen+newline only if next line is not empty
 # Join hyphenated word, insert newline after joined word
-sed -z 's/\([^\n]\)-\n\([^\n][^ ]*\) \?/\1\2\n/g' "$INPUT" > "$OUTPUT"
+sed -z 's/\([^\n]\)-\n\([^\n][^ ]*\) \?/\1\2\n/g' "$INPUT" > "/tmp/`basename $0`.$$" && mv "/tmp/`basename $0`.$$" "$OUTPUT"
