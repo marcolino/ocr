@@ -1,5 +1,5 @@
 Cartella OCR,Char Acc %,Word Acc %,BLEU,Score 1-100,Commento sintetico
-books/txt_tesseract_1_0_0,98.26,9.39,89.91,61.04,"Confusione O/0, Omissioni o duplicazioni di parole"
-books/txt_tesseract_5_3_0,99.51,37.23,96.38,73.97,"Confusione O/0, Omissioni o duplicazioni di parole"
-books/txt_easyocr_1_7_2,92.54,6.5,78.18,55.25,"Confusione O/0, Errori su accenti, Omissioni o duplicazioni di parole"
-books/txt_tesseract_5_3_0_deepseek,98.16,28.53,97.43,70.16,"Confusione O/0, Omissioni o duplicazioni di parole"
+books/txt_tesseract_1_0_0,98.32,9.73,90.14,61.25,"Confusione O/0, Omissioni o duplicazioni di parole"
+books/txt_tesseract_5_3_0,99.61,32.92,98.19,72.65,"Confusione O/0, Omissioni o duplicazioni di parole"
+books/txt_easyocr_1_7_2,92.59,7.79,78.47,55.85,"Confusione O/0, Errori su accenti, Omissioni o duplicazioni di parole"
+books/txt_tesseract_5_3_0_deepseek,98.32,40.07,100.0,75.35,"Confusione O/0, Omissioni o duplicazioni di parole"
